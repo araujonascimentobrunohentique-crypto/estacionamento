@@ -1,11 +1,22 @@
-
 {
+  "name": "trabalhologin",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/araujonascimentobrunohentique-crypto/estacionamento#readme",
+  "bugs": {
+    "url": "https://github.com/araujonascimentobrunohentique-crypto/estacionamento/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araujonascimentobrunohentique-crypto/estacionamento.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
-  },
-"devDependencies": {
-    "nodemon": "^3.1.11"
   },
   "dependencies": {
     "dotenv": "^17.3.1",
@@ -13,5 +24,8 @@
     "express": "^5.2.1",
     "mariadb": "^3.5.2",
     "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
