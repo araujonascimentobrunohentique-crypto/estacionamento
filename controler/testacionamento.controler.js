@@ -4,8 +4,8 @@ const addTarefa = (req, res) => {
 };
 
 const mostrarTarefa = (req, res) => {
-    estacionamentoModel.readAllTarefas().then((informacao) => {
-        res.render("index", { title: "principal", dados: informacao });
+    estacionamentoModel.readAllEstacionamento().then((informacao) => {
+        res.render("index", { title: "principal", informacao: informacao });
     });
 };
 

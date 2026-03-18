@@ -46,15 +46,17 @@
         </tr>
       </thead>
       <tbody>
-        <% dados.forEach((tarefa,indice) => { %>
+        <% informacao.forEach((informacao,indice) => { %>
          <!-- INICIO DE UMA TAREFA -->
         <tr>
           <th scope="row"><input type="checkbox"></th>
           <th scope="row"><%= indice + 1 %></th>
-          <td> <%= Registro.data %> </td>
-          <td> <%= Registro.hora %> </td>
-          <td> <%= Registro.descricao %> </td>
+          <td> <%= informacao.data_regis %> </td>
+          <td> <%= informacao.data %> </td>
+          <td> <%= informacao.hora %> </td>
+          <td> <%= informacao.descricao %> </td>
           <td>
+
 
             <button type="button" class="btn btn-primary">
               <i class="bi bi-pencil"></i>
@@ -64,7 +66,6 @@
           </td>
         </tr>
            
-
        <% })%>
        
        

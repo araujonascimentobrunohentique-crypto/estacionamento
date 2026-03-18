@@ -9,7 +9,7 @@ require('dotenv').config();
 const tarefasroutes = require("./rotes/estacionamento.routes");
 // configurações iniciais
 app.use(morgan("dev"));
-app.set("views", "./views"); //adicionado
+app.set("views", "./view"); //adicionado
 app.set("view engine", "ejs"); //adicionado
 app.use(express.static("./public"));//adicionado
 
