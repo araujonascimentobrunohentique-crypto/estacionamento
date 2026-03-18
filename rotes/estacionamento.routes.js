@@ -1,6 +1,9 @@
-const express = require('express');
-const estacionamentoController = require('../controler/testacionamento.controler');
+const express = require('express'); 
+//esta importanto o express da pasta modulos
+const estacionamentoController = require('../controler/testacionamento.controler'); 
+//importando a variavel estacionamentocontroller
 const router = express.Router();
+//organiza as paginas 
 
 // Rotas da Aplicação
 router.get("/", estacionamentoController.mostrarTarefa);
@@ -9,3 +12,4 @@ router.post("/deletar", estacionamentoController.deletarTarefa);
 router.post("/alterar", estacionamentoController.alterarTarefa);
 
 module.exports = router;
+//exportando a variavel router
